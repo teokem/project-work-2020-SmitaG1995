@@ -19,7 +19,7 @@ def momentum_sphere(data, x1, y1, x2, y2, x3, y3, v1, mass, norm = matplotlib.co
     
     plt.rcParams['font.size'] = 20
     
-    fig = plt.figure(figsize=(20,10))
+    fig = plt.figure(figsize=(18,5))
     ## first subplot
     x1 = data44[x1]
     y1 = data44[y1]

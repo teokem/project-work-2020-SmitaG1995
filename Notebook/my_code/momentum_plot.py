@@ -27,7 +27,7 @@ def momentum_plot(data, x1, y1, x2, y2, v1, mass, norm = matplotlib.colors.LogNo
     plt.subplot(1, 2, 1)
     BinWidth = 1 #2d
     binp = np.arange(min(x1), max(x1), BinWidth)
-    plt.hist2d(x1,y1,bins =[binp,binp]) #norm=matplotlib.colors.LogNorm()
+    plt.hist2d(x1,y1,norm=matplotlib.colors.LogNorm(),bins =[binp,binp]) #
     plt.xlabel(x1.name)
     plt.ylabel(y1.name)
     plt.ylim(0, 150)
@@ -49,7 +49,7 @@ def momentum_plot(data, x1, y1, x2, y2, v1, mass, norm = matplotlib.colors.LogNo
         plt.xlim(-150, 150)
     else:
         y2 = data44[y2]
-        plt.hist2d(x2,y2,bins =[binp,binp]) #norm=matplotlib.colors.LogNorm()
+        plt.hist2d(x2,y2,norm=matplotlib.colors.LogNorm(),bins =[binp,binp])
         plt.xlabel(x2.name)
         plt.ylabel(y2.name)
         plt.ylim(0, 150)
