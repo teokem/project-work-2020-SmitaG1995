@@ -1,0 +1,18 @@
+name: Smitaproject
+channels:
+  - conda-forge
+dependencies:
+  - python=3.7  
+  - matplotlib
+  - bokeh
+  - ipywidgets
+  - notebook
+  - numpy
+  - openpyxl
+  - pandas
+  - pip
+  - scipy
+  - seaborn
+  - pip
+  - skimage
+
