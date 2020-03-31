@@ -5,7 +5,7 @@ Created on Tue Mar 24 15:57:43 2020
 """
 from  scipy import *
 from  matplotlib.pyplot import *
-from splat import *
+from my_code.splat import *
 
 def p0(data, m2q, cq, tof_no_p, v_mb, EF):
     ''' this function calculates the momentum of the particles that gain no 

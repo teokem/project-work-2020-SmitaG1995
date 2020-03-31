@@ -5,7 +5,7 @@ Created on Thu Mar  5 00:44:51 2020
 """
 from  scipy import *
 from  matplotlib.pyplot import *
-from x0y0_calc import *
+from my_code.x0y0_calc import *
 from scipy import stats
 
 

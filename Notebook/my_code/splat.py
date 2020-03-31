@@ -5,7 +5,6 @@ Created on Wed Mar 18 17:28:05 2020
 """
 from  scipy import *
 from  matplotlib.pyplot import *
-from tof_no_p import *
 import numpy as np
 
 def splat(m2q,tof_no_p, v_mb):

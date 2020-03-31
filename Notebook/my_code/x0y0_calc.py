@@ -4,7 +4,7 @@ Created on Wed Mar  4 04:02:17 2020
 @author: Smita Ganguly
 """
 from  scipy import *
-from img_hotspot import *
+from my_code.img_hotspot import *
 import numpy as np
 import matplotlib.pyplot as plt
 

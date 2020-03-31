@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 from skimage.feature import peak_local_max
 from skimage import data, img_as_float
 import numpy as np
-from rot_mat import *
-from rot_axes import *
+from my_code.rot_mat import *
+from my_code.rot_axes import *
 
 def img_hotspot(i,x,y,BinWidth,theta,Graphics):
     '''calculates the hotspot in given 2d data'''
