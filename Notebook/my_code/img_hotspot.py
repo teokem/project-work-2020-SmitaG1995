@@ -2,7 +2,7 @@ from scipy import *
 from scipy import ndimage as ndi
 import matplotlib.pyplot as plt
 from skimage.feature import peak_local_max
-from skimage import data, img_as_float
+from skimage import img_as_float
 import numpy as np
 from my_code.rot_mat import *
 from my_code.rot_axes import *

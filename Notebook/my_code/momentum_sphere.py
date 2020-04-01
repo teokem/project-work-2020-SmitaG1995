@@ -32,6 +32,11 @@ def momentum_sphere(data, x1, y1, x2, y2, x3, y3, param, mass, norm = matplotlib
     plt.ylabel(y1.name)
     plt.ylim(0, 150)
     plt.xlim(0, 150)
+    plt.grid(axis = 'x',which='both',color='r', linewidth=2)
+    #plt.xticks(np.arange(0, 150, 25))
+
+
+    
     
     ## second subplot
     x2 = data44[x2]
@@ -46,6 +51,8 @@ def momentum_sphere(data, x1, y1, x2, y2, x3, y3, param, mass, norm = matplotlib
     plt.ylabel(y2.name)
     plt.ylim(0, 3.2)
     plt.xlim(0, 150)
+    plt.grid(axis = 'x',which='both', color='r', linewidth=2)
+    plt.xticks(np.arange(0, 150, 25))
     
     ## third subplot
     x3 = data44[x3]
@@ -56,6 +63,8 @@ def momentum_sphere(data, x1, y1, x2, y2, x3, y3, param, mass, norm = matplotlib
     plt.ylabel(y3.name)
     plt.ylim(0, 3.2)
     plt.xlim(0, 150)
+    plt.grid(axis = 'x',which='both', color='r', linewidth=2)
+    plt.xticks(np.arange(0, 150, 25))
     
     plt.suptitle(param)
 
