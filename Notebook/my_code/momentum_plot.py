@@ -8,7 +8,7 @@ from  matplotlib.pyplot import *
 from matplotlib import pyplot as plt
 from scipy.signal import find_peaks
 
-def momentum_plot(data, x1, y1, x2, y2, v1, mass, norm = matplotlib.colors.LogNorm() ):
+def momentum_plot(data, x1, y1, x2, y2, param, mass, norm = matplotlib.colors.LogNorm() ):
     ''' this function creates histogram plots of momentum while the parameter v1 is changed
     Input :
     the x, y data (can make a plot with two subplot)
@@ -56,7 +56,7 @@ def momentum_plot(data, x1, y1, x2, y2, v1, mass, norm = matplotlib.colors.LogNo
         plt.xlim(-150, 150)
     
     
-    plt.suptitle('%d' % v1)
+    plt.suptitle(param)
 
     plt.show()
     
